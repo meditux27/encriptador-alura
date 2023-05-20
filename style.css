@@ -13,9 +13,9 @@ body{
     padding: 1em; 
     border-radius: 32px;
     position: absolute;
-    width: 360px;
-    height: 80%;
-    left: 76%;
+    width: 340px;
+    height: 90%;
+    left: 78%;
     top: 40px;
     background: #FFFFFF;
       
@@ -26,12 +26,15 @@ body{
 
 
 }
-
+.elementos-desencriptador img{
+   
+    margin-top: 12em;    
+}
 .hols{
 font-weight: 700;
 font-size: 24px;
 text-align: center;
-padding: 2em 0 0 0;
+padding: 2em 1em 0 1em;
 color: #343A40;
 }
 .hols:last-child{
@@ -40,7 +43,30 @@ color: #343A40;
     font-weight: 400;
     font-size: 16px;
     text-align: center;
-    color: #495057;
+    color: #495057; 
+        
     
-    
+}
+#ingrese-texto{
+/* position: absolute;
+width: 577px;
+height: 48px;
+left: 235px;
+top: 169px; */
+margin-left: 8em;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+width: 577px;
+height: 48px;
+
+/* identical to box height, or 48px */
+border: none;
+background-color: #E5E5E5;
+
+/* Dark blue/dark-blue-300 */
+
+color: #0A3871;
+
 }
