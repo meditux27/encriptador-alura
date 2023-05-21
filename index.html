@@ -7,6 +7,7 @@
     <title>encriptado/desencriptado</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
     <header>
@@ -21,7 +22,7 @@
         <textarea name="text_in" id="ingrese-texto" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
        <div class="elementos-desencriptador">
         <img src="/img/Muneco.svg" alt="logo-buscar">
-        <!-- <textarea name="text_out" id="visualizar-texto" cols="30" rows="10"></textarea> -->
+        <textarea name="text_out" id="visualizar-texto" cols="30" rows="10"></textarea> 
         <p class="mensaje-muneco">Ningun mensaje fue <br> encontrado</p>
         <p class="mensaje-muneco">Ingrese el texto que desees encriptar o <br>desencriptar</p>
        </div>
@@ -31,9 +32,23 @@
         <img src="/img/log-advertencia.svg" alt="logo-advertencia" >
         <p >Solo letras minusculas y sin acentos</p>
         <div class="botonera">
-        <input type="button" class="btn-encriptar" value="Encriptar">
-        <input type="button" class="btn-desencriptar" value="Desencriptar">
+       <button type="button" class="btn-encriptar" >Encriptar</button>
+        <button type="button" class="btn-desencriptar" >Desencriptar</button>
+        <button type="button" class="btn-copiar" >Copiar</button>
+        <button type="button" class="btn-borrar" >Limpiar</button>
+        
     </div>
     </footer>
 </body>
+<script>
+var btnE=document.querySelector(".btn-encriptar");
+btnE.onclick=encriptar;
+var btnD=document.querySelector(".btn-desencriptar");
+btnD.onclick=desencriptar;
+var btnC=document.querySelector(".btn-copiar");
+btnC.onclick=copiar;
+var btnL=document.querySelector(".btn-borrar");
+btnL.onclick=borrar;
+
+</script>
 </html>
