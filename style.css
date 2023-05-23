@@ -91,18 +91,19 @@ color: #343A40;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
-    width: 340px;
-    height: 700px;
+    width: 330px;
+    height: 900px;
     border: none;
     background-color:#FFFFFF;
     color: #0A3871;
+    margin-top: 15px;
     
     
 }
 
 .btn-copiar{
     
-
+margin-top: 12px;
     margin-left: 25%; 
     padding: 14px;
     width: 188px;
