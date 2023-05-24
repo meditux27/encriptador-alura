@@ -92,7 +92,7 @@ color: #343A40;
     font-weight: 400;
     font-size: 32px;
     width: 330px;
-    height: 900px;
+    height: 720px;
     border: none;
     background-color:#FFFFFF;
     color: #0A3871;
@@ -148,3 +148,75 @@ footer p{
     border-radius: 24px;
     color: #0A3871;
 }
+
+@media screen and (max-width:912px) {
+    #ingrese-texto{
+        
+        margin-left: 2em;
+        margin-bottom: 0.5em;
+        width: 75%;
+        height: 17em; 
+        padding: 1em;
+        }
+    
+    
+    #elementos-desencriptador,#elementos-mensaje-desencriptador{
+        padding: 1em;  
+        width: 80%;
+        height: 15%;
+        position:fixed;
+        top: 75%;
+        left: 7%;
+        
+    }
+    #visualizar-texto{
+        width: 80%;
+        height: 12%;
+        position:fixed;
+        top: 75%;
+        left: 8%;
+        
+    }
+    .logo-muneco{
+        display: none;
+    }
+    footer{
+        width: auto;
+        margin-top: 1%;
+        position: fixed;
+        top: 65%;
+        left: 14%;
+
+    }
+    .btn-desencriptar{
+        margin-left: 4em;    
+    }
+    .mensaje-muneco{
+        font-weight: 700;
+        font-size: 38px;
+        text-align: center;
+        padding: 1em 1em 0 1em;
+        color: #343A40;
+        
+        }
+        .mensaje-muneco:last-child{
+            width: auto;
+            font-size: 27px;
+        }
+        .btn-borrar{
+           margin-left: 40%;
+           
+        }
+
+       
+        .btn-copiar{
+            width: 288px;
+            height: 47px;
+           position: fixed;
+           top:87%;
+           left:8%;
+
+           
+           
+        }
+    }
