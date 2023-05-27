@@ -206,13 +206,14 @@ footer p{
         .btn-borrar{
            margin-left: 40%;
            
+           
         }
 
         .btn-copiar{
             width: 288px;
             height: 47px;
            position: fixed;
-           top:87%;
+           top:93%;
            left:8%;
            
         }
@@ -232,6 +233,7 @@ footer p{
             #elementos-desencriptador,#elementos-mensaje-desencriptador,#visualizar-texto{
                 top: 69%;
                 left: 5%;
+                height:22%;
             }
         
         
@@ -251,7 +253,8 @@ footer p{
             }
             .btn-copiar{
     
-                margin-top: 0.5%;  
+                margin-top: 11%;
+                margin-left: 25%;  
                 }
 
         }
@@ -270,14 +273,107 @@ footer p{
                 }
             #elementos-desencriptador,#elementos-mensaje-desencriptador,#visualizar-texto{
                 top: 67%;
+                
             }
             .btn-desencriptar,.btn-encriptar{
                 margin-left: 1em;    
             }
             .btn-copiar{
     
-                margin-top: -1%;  
+                margin-top: 8%;  
                 }
 
         }
+        @media screen and (max-width:540px) {
+            #ingrese-texto{
+                width: 70%;
+                height: 5em;
+                margin-top: 1%;
+        
+                }
+          
+                footer{
+                   
+                    left: 7%;
+                    
+                
+                }
+            #elementos-desencriptador,#elementos-mensaje-desencriptador,#visualizar-texto{
+                top: 72%;
+                height:17%;
+
+            }
+            .mensaje-muneco,.mensaje-muneco:last-child{
+                font-size: 18px;
+            }
+           
+           
+            
+            .btn-encriptar{
+                position:fixed;
+                left:25%;
+                padding: 18px;
+                width: fit-content;
+                height: 2px;
+               
+                
+            }
+            .btn-desencriptar{
+                position:fixed;
+                left:50%;
+                padding: 18px;
+                width: fit-content;
+                height: 2px;
+               
+                
+            }
+            
+
+            .btn-borrar{
+              
+                padding: 0 .5em;
+                
+             }
+
+
+            .btn-copiar{
+    
+                margin-top: 1%;
+                margin-left: 33%;  
+                width: 15%;
+                height: 5%;
+                padding: 0;
+                }
+
+        }
+        @media screen and (max-width:375px) {
+            #ingrese-texto{
+                width: 60%;
+                height: 5em;
+                margin-top: 1%;
+        
+                }
+                .btn-encriptar{
+                    position:fixed;
+                    left:20%
+                   
+                    
+                }
+            .btn-copiar{
+    
+                margin-top: 2%;
+                margin-left: 33%;  
+                width: 15%;
+                height: 5%;
+                padding: 0;
+                }
+                 #visualizar-texto{
+            
+            left: 6%;
+            border-radius: 24px;
+            
+        }
+
+        }
+        
     }
