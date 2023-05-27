@@ -374,20 +374,40 @@ footer p{
         }
 
         }
-        @media screen and (max-width:375px) {
+        @media screen and (max-width:280px) {
             #ingrese-texto{
-                width: 40%;
+                width: 45%;
                 height: 5em;
                 margin-top: 1%;
-        
+                font-size: 22px;
                 }
                 .btn-encriptar{
                     position:fixed;
-                    left:15%
+                    left:2%
                    
                     
                 }
-        
+                .btn-desencriptar{
+                    
+                    left:40%;
+                    
+                    
+                }
+                #elementos-desencriptador,#elementos-mensaje-desencriptador,#visualizar-texto{
+                    top: 72%;
+                    margin-left: 0;
+                    left: 1%;
+                   
 
+                }
+                #visualizar-texto{
+                    margin-left: 10px;
+                    border-radius: 0;
+                    font-size: 22px;
+                }
+                footer p{
+                    font-size: 12px;
+                }
+               
         }
     }
