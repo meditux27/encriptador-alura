@@ -78,7 +78,7 @@ color: #343A40;
     border-radius: 32px;
     position: absolute;
     width: 340px;
-    height: 90%;
+    height: 100%;
     left: 78%;
     top: 40px;
     background: #FFFFFF;
@@ -92,12 +92,12 @@ color: #343A40;
     font-weight: 400;
     font-size: 32px;
     width: 330px;
-    height: 720px;
+    height: 90%;
     border: none;
     background-color:#FFFFFF;
     color: #0A3871;
     margin-top: 15px;
-    
+   
     
 }
 
@@ -253,7 +253,7 @@ footer p{
             }
             .btn-copiar{
     
-                margin-top: 11%;
+                margin-top: 2%;
                 margin-left: 25%;  
                 }
 
@@ -280,7 +280,7 @@ footer p{
             }
             .btn-copiar{
     
-                margin-top: 8%;  
+                margin-top: 1%;  
                 }
 
         }
@@ -335,15 +335,14 @@ footer p{
                 
              }
 
-
-            .btn-copiar{
+             .btn-copiar{
     
-                margin-top: 1%;
-                margin-left: 33%;  
-                width: 15%;
-                height: 5%;
-                padding: 0;
+                margin-top: 1.5%;  
+                width: fit-content;
+                margin-left: 35%;
+                height: 1px;
                 }
+            
 
         }
         @media screen and (max-width:375px) {
@@ -375,5 +374,20 @@ footer p{
         }
 
         }
+        @media screen and (max-width:375px) {
+            #ingrese-texto{
+                width: 40%;
+                height: 5em;
+                margin-top: 1%;
         
+                }
+                .btn-encriptar{
+                    position:fixed;
+                    left:15%
+                   
+                    
+                }
+        
+
+        }
     }
