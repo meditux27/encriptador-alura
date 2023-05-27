@@ -208,36 +208,68 @@ footer p{
            
         }
 
-       
         .btn-copiar{
             width: 288px;
             height: 47px;
            position: fixed;
            top:87%;
            left:8%;
-
-           
            
         }
 
         @media screen and (max-width:820px) {
+             #ingrese-texto{
+                width: auto;
+                height: 100%;
+                }
+                .btn-borrar{
+                    width: auto;
+                 }
             footer{
-               
-                margin-top: 10%;
-               
-        
+                margin-top: -10%;
+                left: 7%;
             }
             #elementos-desencriptador,#elementos-mensaje-desencriptador,#visualizar-texto{
-                
-                top: 81%;
-                
+                top: 69%;
                 
             }
             .btn-desencriptar{
                 margin-left: 3em;    
             }
+           
+            .mensaje-muneco,.mensaje-muneco:last-child{
+                width: auto;
+                padding: 0.5em 1em 0 1em;
+            }
+            .btn-copiar{
+    
+                margin-top: 0.5%;  
+                }
 
         }
 
-     
+        @media screen and (max-width:768px) {
+            #ingrese-texto{
+                width: auto;
+                height: 10em;
+                margin-top: 2%;
+        
+                }
+          
+                footer{
+                    margin-top: -12%;
+                    left: 7%;
+                }
+            #elementos-desencriptador,#elementos-mensaje-desencriptador,#visualizar-texto{
+                top: 67%;
+            }
+            .btn-desencriptar,.btn-encriptar{
+                margin-left: 1em;    
+            }
+            .btn-copiar{
+    
+                margin-top: -1%;  
+                }
+
+        }
     }
