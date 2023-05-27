@@ -219,4 +219,25 @@ footer p{
            
            
         }
+
+        @media screen and (max-width:820px) {
+            footer{
+               
+                margin-top: 10%;
+               
+        
+            }
+            #elementos-desencriptador,#elementos-mensaje-desencriptador,#visualizar-texto{
+                
+                top: 81%;
+                
+                
+            }
+            .btn-desencriptar{
+                margin-left: 3em;    
+            }
+
+        }
+
+      
     }
