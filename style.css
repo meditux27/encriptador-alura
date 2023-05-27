@@ -231,8 +231,16 @@ footer p{
             }
             #elementos-desencriptador,#elementos-mensaje-desencriptador,#visualizar-texto{
                 top: 69%;
-                
+                left: 5%;
             }
+        
+        
+        #visualizar-texto{
+            
+            left: 6%;
+            
+        }
+
             .btn-desencriptar{
                 margin-left: 3em;    
             }
